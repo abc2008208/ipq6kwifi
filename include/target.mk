@@ -52,14 +52,10 @@ DEFAULT_PACKAGES.router:=\
 # For easy usage
 DEFAULT_PACKAGES.tweak:=\
 	block-mount \
-	default-settings-chn \
 	kmod-ipt-raw \
 	kmod-nf-nathelper \
 	kmod-nf-nathelper-extra \
 	luci \
-	luci-app-filetransfer \
-	luci-app-turboacc \
-	luci-lib-fs \
 	luci-lib-ipkg
 
 ifneq ($(DUMP),)
